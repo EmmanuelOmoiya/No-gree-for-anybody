@@ -45,7 +45,7 @@ const split = () => {
             transformStyle: "preserve-3d",
         });
         IO(section === "1" ? section1 : section2 , {
-            threshold: 1,
+            threshold: 0.85,
         })
     });
 };
